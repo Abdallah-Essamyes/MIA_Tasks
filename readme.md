@@ -7,7 +7,7 @@ This is a description of the tasks in each branch
 	This task consisted of developing simple circuits on circuit simulation software to implement
 	the fundmentals of electric circuit
 	
-**Task 3:
+**Task 3: <br>
 	This task was about implementing the basics of microcontrollers and how they communicate with
 	different sensors to do different tasks
 	
