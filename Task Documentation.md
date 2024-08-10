@@ -40,3 +40,6 @@
 
 <font size = 6>**nano**</font> text_file:<br>
 	allows the user to read and write to the text_file
+
+<font size = 6>**sudo apt-get**</font> package_name:<br>
+	installs the package passed by the user in package_name
