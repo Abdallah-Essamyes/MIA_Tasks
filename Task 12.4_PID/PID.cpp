@@ -18,5 +18,5 @@ int PID::pid_control (float current){
   eInt += e * deltaT;
   prev_time = millis();
   u = kp*e + kd*eDerv + ki*eInt;
-  return fabs(u); 
+  return u; 
 }
