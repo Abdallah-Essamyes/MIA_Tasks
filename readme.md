@@ -28,3 +28,16 @@ Gradient descent is an alogrithm that tries finding the lowest point on a multi 
 ## Cost function
 Decreasing the value of this function means we are closer to the predicted output, we try minimizing this function using gradient descent.
 A good cost function is the mean squared error.
+
+
+# Comparing the two implementations
+
+## Ease of use
+Using a prebuilt library is much easier as all of the function are available and all the required parameters can be modified easily without having to go into details
+
+## Performance
+The performance of prebuilt libraries was better since they are maintained and optimized by a wide community of people who have spend much more years exploring and researching the topic.
+Although it's worth noting that it wasn't THAT much better since basically all the heavy processing is related to the same core algorithm that doesn't have much room for change.
+
+## Flexibility
+It felt like they both had the same flexibility, yes in the prebuilt libraries there isn't access to core functions but all the parameters can be modified by the user.
