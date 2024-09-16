@@ -1,24 +1,16 @@
-This is a description of the tasks in each branch
+#Chapter 1 Summary
+##Perceptrons
+A simple weighted variable sum equation that is compared with a threshold to give a binary output (0 or 1).
 
-**Task 1:**<br>
-	This task consisted of training on c++ language by praciticing coding some simple programs in it
-	
-**Task 2:**<br>
-	This task consisted of developing simple circuits on circuit simulation software to implement
-	the fundmentals of electric circuit
-	
-**Task 3:** <br>
-	This task was about implementing the basics of microcontrollers and how they communicate with
-	different sensors to do different tasks
-	
-**Task 4:**<br>
-	This task was about understanding machine learning and implementing them to solve different types
-	of problems and creating a chess game to implement the python game gui basics
+output = ( 0 if weighted sum < threshold, 1 if weighted_sum >= threshold)
 
-**Task 5:**<br>
-	This task was to understand the different communication protocols and the noise and error sources
-	that arise in signal processing and implementing different microcontroller communication protocols.
-	
-**Task 6:**<br>
-	This task was to learn pcb design and make a simple motor H-bridge schematic and convert it to a
-	pcb
+by decreasing the threshold, we are becoming more likely to take the decision.
+
+#Logic gates
+NN made with perceptrons can be used to mimick NAND gates, which can mimick any logic gate, so in its essence this means we can perform
+computations with them but have the limitation of classical computation i.e it cannot learn.
+solution: Sigmoid neurons
+##Sigmoid Neurons
+They accept decimal values and not just 0 and 1, which means we are not just taking a decision but measuring how likely are we to take this decision.
+The usage of decimals allows small changes in weights to lead to small changes in the output instead of the output jumping from 0 to 1
+this allows us the algorithm to learn and make better decisoins
